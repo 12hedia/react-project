@@ -1,0 +1,44 @@
+--------------------------------------------  page login code --------------------------------
+   import logo from './logo.svg';
+import './App.css';
+import './accueil';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from 'react-router-dom';
+   
+  // return()
+   <body>
+ <Router>
+      <form id='container'>
+      
+   
+          <input  class="inputclass" type="text" placeholder="اســـــــــــم المستخـــــــدم" required/>
+          <input class="inputclass" type="password" placeholder="كلمـــــــــة العبـــــــــــور" required/>
+       <br/><br/>
+        <input type="submit" value="تسجيــــل الدخــــول" onClick={() => navigate("/accueil")} /> <br></br><br/>
+      
+        <Link id='newcompte' to="/accueil"> انشـــــــــــــــاء حســـــاب </Link>
+    
+      </form>
+      <div id='div3' ></div>
+      <div class='a1' id='div2'><p>  مرحبـــــــــــا بـــــكم </p> </div>
+      <div class='a1' id='div1'> <p> الجمهورية التونسية <br />وزارة الشؤون الثقافية <br /> المندوبية الجهوية للشؤون الثقافية بصفاقس <br /> دار الثقافة ساقية الزيت</p>
+      </div>
+      <div id='logogov'></div>
+    
+      <p id='footercopy'>	&copy; ENET'COM Junior Entreprise </p>
+      </Router>
+
+ 
+      {/* <Switch>
+          <Route path="/accueil">
+          <Accueil />
+          </Route>
+        </Switch>  */}
+    </body>
+
+
+    ----------------------------------- page accueil ----------------------

@@ -1,0 +1,355 @@
+body{
+background-image: url('/back1.jpg');
+background-repeat: no-repeat;
+} 
+
+/* menu */
+/* body{
+  background-image: url('/houd.jpg');
+ 
+  } */
+#container{
+width: 30%;
+height: 400px;
+background-color: rgba(163, 137, 159, 0.337);
+border-top-left-radius: 20%;
+border-bottom-right-radius: 20%;
+top: 25%;
+right: 200px;
+position:absolute;
+align-items: center;
+justify-content: center;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#div3{
+  background-image: url('/pextlogo.png');
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 21%;
+  top: 35%;
+ 
+  position:absolute;
+}
+#div2{
+color: aliceblue;
+position: absolute;
+top: 50%;
+left: 12%;
+font-size: 60px;
+}
+#footercopy{
+size: 15px;
+font-weight: 150px;
+color: aliceblue;
+
+bottom: 0px;
+left: 45%;
+position: absolute;
+text-align: center;
+}
+#div1{
+  color: aliceblue;
+  text-align: right;
+  padding-right: 90px;
+}
+#logogov{
+  background-image: url('/Tunisia.png');
+  width: 70px;
+  height:70px;
+  background-repeat: no-repeat;
+  background-size: contain;
+ right: 0px;
+ top: 15px;
+ position: absolute;
+
+}
+
+.inputclass{
+  border: none;text-emphasis: none;
+margin-top: 65px;
+margin-left:50px;
+  border-bottom:1px solid rgba(92, 3, 104, 0.535) ;
+  width: 300px;
+  height: 40px;
+  border-radius: 8px;
+ font-size: 15px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}input[type=text] {
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 50%;
+}
+input[type=password] {
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=password]:focus {
+  width: 50%;
+}
+
+#submit {
+  width: 50%;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 15px;
+  margin-left: 100px;
+  background-color: rgb(150, 8, 126);
+  color: aliceblue;
+  font-size: 20px;
+}
+
+#submit:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#submit:active {
+  background-color: #edf80d;
+  color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#newcompte{
+ margin-left: 130px;
+ color: aliceblue;
+ margin-top: 50px;
+ font-weight: 5px;
+ font-size: larger;
+ 
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* unvisited link */
+#newcompte:link {
+  color: red;
+}
+
+
+/* mouse over link */
+#newcompte:hover {
+  color: hotpink;
+}
+
+/* selected link */
+#newcompte:active {
+  color: rgb(255, 0, 183);
+}
+
+input::placeholder {
+   text-align:right; 
+   font-size: 15px;
+ }
+
+
+ #navbar{
+background-color: rgba(232, 159, 159, 0.289);
+width:50px;
+height: 50px;
+border-bottom-right-radius: 100%;
+position: relative;
+ }
+ #navbar:hover{
+  background-color: rgba(248, 248, 248, 0.289);
+  width:450px;
+  height:450px;
+  border-bottom-right-radius: 100%;
+
+   }
+   #logo{
+     background-image: url('/menu.png');
+     width: 30px;
+     height: 30px;
+   }
+   #div5{
+   position:absolute;
+   width: 50px;
+   height: 50px;
+   background-color: rgba(0, 195, 255, 0.029);
+top: 50px;
+align-items: center;
+justify-items: center;
+font-size: 0px;
+ }  
+
+ #div5:hover{
+
+  width: 430px;
+   height: 60px;
+font-size: 22px;
+ }
+ #div6{
+  position:absolute;
+  width: 40px;
+  height: 50px;
+  top:230px;
+  font-size: 0px;
+  background-color: rgba(0, 195, 255, 0.029);
+}  
+
+
+#div6:hover{
+
+  width: 370px;
+   height: 60px;
+font-size: 22px;
+ }
+#div7{
+  position:absolute;
+  width: 40px;
+  height: 60px;
+  top: 110px;
+  background-color: rgba(0, 195, 255, 0.029);
+  font-size: 0px;
+}  
+
+#div7:hover{
+  width: 400px;
+  height: 60px;
+font-size: 22px;
+ }
+
+#div8{
+  position:absolute;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 195, 255, 0.029);
+  top: 290px;
+  font-size: 0px;
+}  
+
+#div8:hover{
+  width: 290px;
+  height: 60px;
+font-size: 22px;
+ }
+
+#div9{
+  position:absolute;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 195, 255, 0.029);
+  top: 170px;
+  font-size: 0px;
+}  
+#div9:hover{
+  width: 390px;
+  height: 60px;
+font-size: 22px;
+ }
+#div10{
+  position:absolute;
+  width: 20px;
+  height: 60px;
+  background-color: rgba(0, 195, 255, 0.029);
+  top: 350px;
+  font-size: 0px;
+}  
+#div10:hover{
+  width: 200px;
+  height: 60px;
+font-size: 22px;
+ }
+.disgdiv{
+display: inline-block;
+text-align: center;
+text-justify: center;
+
+}
+#log1{
+  background-image: url('/events.png');
+  width:50px;
+  height:50px;
+  background-repeat: no-repeat;
+position:absolute;
+top:12px;
+right:50px;
+}
+
+#log2{
+  background-image: url('/information.png');
+  width:50px;
+  height:50px;
+  background-repeat: no-repeat;
+position:absolute;
+top:12px;
+right:40px;
+}
+
+#log3{
+  background-image: url('/feedback.png');
+  width:50px;
+  height:50px;
+  background-repeat: no-repeat;
+position:absolute;
+top:12px;
+right:35px;
+}
+#log4{
+  background-image: url('/stats.png');
+  width:50px;
+  height:50px;
+  background-repeat: no-repeat;
+position:absolute;
+top:12px;
+right:40px;
+}
+#log5{
+  background-image: url('/addadmin.png');
+  width:50px;
+  height:50px;
+  background-repeat: no-repeat;
+position:absolute;
+top:12px;
+right:40px;
+}
+#log6{
+  background-image: url('/logout.png');
+  width:50px;
+  height:50px;
+  background-repeat: no-repeat;
+position:absolute;
+top:12px;
+right:20px;
+}
+
+#titre1{
+position:absolute;
+margin-top: 40px;
+margin-left: 35%;
+width: 50px;
+height: 50px;
+font-size: 30px;
+color: beige;
+}
+
+
+#stat1 {
+top: 47%;
+ left: 5%;
+ position:absolute;
+background-image: url('/hgjfkhvkhjk.PNG');
+ width: 40%;  
+ height: 40%;
+ background-repeat: no-repeat;
+background-position-x: center;
+background-size: contain;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#stat2 {
+  top: 47%;
+  left: 55%;
+  position:absolute;
+  background-image: url('/tfudgnuy.PNG');
+  width: 40%;  
+  height: 40%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
